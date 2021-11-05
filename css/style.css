@@ -1,0 +1,269 @@
+#title {
+  text-align: center;
+}
+
+
+
+.logo {
+  width: 25%;
+}
+
+.navbar {
+  padding-bottom: 1%;
+  color: #000;
+}
+
+.nav-item {
+  padding: 5px;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+h3 {
+  text-shadow: 0 0 3px var(--purple),
+    0 0 3px var(--purple),
+    0 0 10px var(--purple);
+}
+
+.text {
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.row {
+  margin: auto 15px auto 15px;
+  padding-bottom: 100px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 50px;
+  color: #fdd;
+  text-shadow: 0 0 3px var(--red),
+    0 0 3px var(--red),
+    0 0 10px var(--red);
+}
+
+.title p {
+  color: #fff;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+#about {
+  text-align: center;
+}
+
+.margin {
+  margin: 0;
+  padding-bottom: 100px;
+  color: #fdd;
+  text-shadow: 0 0 3px var(--red),
+    0 0 3px var(--red),
+    0 0 10px var(--red);
+}
+
+.blue {
+  padding: 7% 0 7%;
+  width: 50%;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+#tokenomics {
+  text-align: center;
+}
+
+.token {
+  padding-bottom: 50px;
+  font-weight: 400;
+  font-family: 'Bungee Outline', cursive;
+  color: #fdd;
+    text-shadow: 0 0 3px var(--red),
+      0 0 3px var(--red),
+      0 0 10px var(--red);
+}
+
+.token2 {
+  font-family: 'Bungee Outline', cursive;
+  padding-top: 100px;
+  font-weight: 400;
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+}
+
+.neon {
+  padding-bottom: 20px;
+  color: #fff;
+  text-shadow: 0 0 3px var(--purple),
+    0 0 3px var(--purple),
+    0 0 10px var(--purple);
+}
+.neon3{
+  color: #fff;
+ text-shadow:
+   0 0 5px #fff,
+   0 0 10px #fff,
+   0 0 20px #fff,
+   0 0 40px #0ff,
+   0 0 80px #0ff,
+   0 0 90px #0ff,
+   0 0 100px #0ff,
+   0 0 150px #0ff;
+}
+.navbar-nav .nav-item .nav-link{
+  color: #fff;
+  text-shadow: 0 0 3px var(--purple),
+    0 0 3px var(--purple),
+    0 0 10px var(--purple);
+}
+
+.red {
+  color: #fdd;
+  text-shadow: 0 0 3px var(--red),
+    0 0 3px var(--red),
+    0 0 10px var(--red);
+}
+#roadmap{
+  text-align: center;
+
+}
+#roadmap ul{
+  padding: 0;
+}
+#roadmap ul li{
+  text-align: center;
+  list-style: none;
+  color: #fdd;
+    text-shadow: 0 0 3px var(--red),
+      0 0 3px var(--red),
+      0 0 10px var(--red);
+}
+
+#press {
+  text-align: center;
+}
+
+.press {
+  width: 90%;
+  padding: 3% 10%;
+}
+
+#footer {
+  text-align: center;
+  background-color: #ff4c68;
+}
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+.glow-on-hover a{
+  text-decoration: none;
+  text-shadow: 0 0 3px var(--purple),
+      0 0 3px var(--purple),
+      0 0 10px var(--purple);
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+#team{
+  text-align: center;
+  color: #fdd;
+    text-shadow: 0 0 3px var(--red),
+      0 0 3px var(--red),
+      0 0 10px var(--red);
+}
+.test-image{
+  width: 25%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.introduction{
+  color: #fff;
+}
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
